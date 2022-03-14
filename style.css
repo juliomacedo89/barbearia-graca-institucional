@@ -180,7 +180,7 @@ nav .menu{
 nav.show .menu{
   opacity:1;
   visibility: visible;
-  background: var(--body-color);
+  background: #232323;
 
   height:100vh;
   width:100vw;
@@ -431,8 +431,8 @@ p.subtitle{
 /*---------- footer ---------------*/
 
 footer.section{
-  padding: 4rem 0;
-  border-top: 1px solid red;
+  padding: 1rem 0;
+  border-top: 1px solid rgb(180, 175, 175);
   
 }
 footer .logo{
@@ -496,7 +496,7 @@ footer .social a:hover{
     height: 3.125rem;
   }
   .section{
-    padding: 10rem 0;
+    padding: 7rem 0;
   }
   .section header,
   #testimonials header{
@@ -506,6 +506,7 @@ footer .social a:hover{
     text-align:center;
   }
   /**** NAVIGATION ***/
+
   main{
     margin-top: var(--header-height);
   }
@@ -529,6 +530,10 @@ footer .social a:hover{
   }
   nav .icon-menu{
     display:none;
+  }
+
+  div .menu{
+    background: red;
   }
 
   /* home */
